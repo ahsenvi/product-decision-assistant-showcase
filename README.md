@@ -8,6 +8,14 @@ An evidence-aware decision companion for product decisions. It helps a product p
 
 ![Start screen](images/home.webp)
 
+## Key product decisions
+
+1. **Classify evidence instead of scoring it.** Evidence is labelled by source and by level, and missing information is shown as "not yet shared", never as "does not exist". The product never invents metrics or confidence percentages, and a score derived from evidence quality was advised against for that reason.
+2. **Choose models by measured trade-offs.** Evaluations showed the product's measurable difference was evidence honesty and calibration, not better advice, so it doesn't claim better advice. For document audit, a smaller model was about one-thirtieth of the cost per case but missed the main conclusion twice and failed once, so the larger model is used.
+3. **Keep humans in the loop.** A model acting as judge proved unreliable, so borderline results were checked by hand, and some metrics were declared unreliable instead of reported. In development, the owner approves tasks and merges changes to prompts, schemas and UI.
+
+Details, evaluation results and limits are below.
+
 ## Problem and target user
 
 Small products often get decisions made on little data and intuition. The main risk is less bad advice than trusting something that looks like evidence but is not, for example "users want this" resting on a small part of a research sample.
