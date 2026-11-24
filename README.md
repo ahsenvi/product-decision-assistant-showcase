@@ -69,4 +69,4 @@ Learning: a model judge is a weak instrument, so borderline results were checked
 
 In development and experimental. Planned next steps are about learning (interviews with solo founders, a wider comparison with human raters), not growth. Legal drafts await a lawyer's review, and nothing is published for end users.
 
-See also: [how this product is built with agents](docs/agent-based-development.md).
+See also: [how this product is built with agents](docs/agent-based-development.md) · [case note: a paused project (Lumio)](docs/lumio-case.md).
