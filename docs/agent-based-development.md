@@ -46,7 +46,7 @@ flowchart TD
 
 ## What has run, and what hasn't
 
-**Has run.** The orchestrator, the claim protocol, the coordinator, the development and code-review subagents, draft pull requests and the status-label board sync have been used on Rota, the decision assistant and this portfolio site since mid-November 2026. A Rota task of 25 November 2026, for example, was picked up by an event-triggered session without a prompt from me and ended as a draft pull request.
+**Has run.** The orchestrator, the claim protocol, the coordinator, the development and code-review subagents, draft pull requests and the status-label board sync have been used on Rota, the decision assistant and my portfolio site since mid-November 2026. A Rota task of 25 November 2026, for example, was picked up by an event-triggered session without a prompt from me and ended as a draft pull request.
 
 **Specified on 25 November 2026, not run yet.** The walkthrough and product-manager subagents, the weekly feature proposals, and a Friday-evening routine that updates my portfolio site and these GitHub pages through pull requests I merge. The routines are not scheduled yet, so none of this is evidence of results.
 
