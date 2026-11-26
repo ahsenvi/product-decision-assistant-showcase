@@ -48,11 +48,13 @@ flowchart TD
 
 **Has run.** The orchestrator, the claim protocol, the coordinator, the development and code-review subagents, draft pull requests and the status-label board sync have been used on Rota, the decision assistant and my portfolio site since mid-November 2026. A Rota task of 25 November 2026, for example, was picked up by an event-triggered session without a prompt from me and ended as a draft pull request.
 
-**Specified on 25 November 2026, not run yet.** The walkthrough and product-manager subagents, the weekly feature proposals, and a Friday-evening routine that updates my portfolio site and these GitHub pages through pull requests I merge. The routines are not scheduled yet, so none of this is evidence of results.
+**First run on 25 and 26 November 2026 (Rota).** A hand-started first full walkthrough of the running app filed 12 issues: two basic defects (a city name auto-matched as a verified place, and an edited day plan being wiped), seven minor defects and three observations. The product-manager role prioritised them, and two cloud sessions fixed the two basic defects in draft pull requests that I merged on 26 November. The walkthrough also ran inside later pull requests as the gate. That is a first run, not a measurement of how many defects the role finds.
+
+**Specified, not run yet.** The same two roles in the decision-assistant project (set up on 26 November 2026, pull request merged the same day), the weekly feature proposals, and a Friday-evening routine that updates my portfolio site and these GitHub pages through pull requests I merge. The routines are not scheduled yet.
 
 ## Limits and what I haven't measured
 
 - Cloud sessions can change labels but not project-board fields, so labels mirror the board; paid model evaluations run locally, not in the cloud.
 - There is no autonomous merge of product-affecting changes and no automated deployment.
-- The code-review role can't run the app, which is why the walkthrough role was added; I haven't yet measured whether it finds defects the other roles miss.
+- The code-review role can't run the app, which is why the walkthrough role was added. Its first run found real defects, but I haven't compared it against the other roles on the same code, so I can't say how many it finds that they miss.
 - I haven't measured delivery speed or defect rates against a human-only baseline.
